@@ -7,7 +7,7 @@ if(!isset($_POST['submit']))
 $name = $_POST['name'];
 $visitor_email = $_POST['email'];
 $message = $_POST['message'];
-
+$sender = 'amutwiri07@gmail.com';
 //Validate first
 if(empty($name)||empty($visitor_email)) 
 {
